@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .main__container {
+  width: 800px;
+  height: 500px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+} */
+
+.todoContainer {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  /* background-color: red; */
+  background-color: gray;
+}
+
+.inputContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20rem;
+}
+
+.inputContainer .title {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5rem;
+}
+
+.inputContainer .container__input {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.inputContainer .input {
+  border-top-left-radius: 25px;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.inputContainer .btn {
+  border-bottom-right-radius: 25px;
+  font-size: 2.2rem;
+  border: none;
+  outline: none;
+}
+
+.todolist__container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35rem;
+  padding: 2rem;
+  padding-top: 4rem;
+  overflow-y: auto;
+  /* background-color: red; */
+}
+
+.todolist__container .content {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
+
+.todolist__container .content .content__list {
+  width: 70%;
+  list-style: none;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.list__btn--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__list .list__button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+  background-color: rgb(181, 255, 69);
+}
+
+.btn__save {
+  padding: 0.2rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
