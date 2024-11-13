@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__container {
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  background-color: darkgray;
+  border-radius: 9px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .inputBox {
+  width: 100%;
+  padding: 8px;
+  height: inherit;
+}
+
+.container .btn__add {
+  padding: 1.5rem 2.8rem;
+  color: #f4f4f4;
+  font-size: 10px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+/* content */
+.content__container {
+  /* background-color: red */
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.content li {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+}
+.original_result {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+
+.original_result p {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 15px;
+}
+
+.original_result button {
+  padding: 0.8rem 2.5rem;
+  font-size: 15px;
+  color: #f4f4f4;
+}
+
+.change_result {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+.change_result input {
+  padding: 0.5rem 1.3rem;
+  font-size: 1.4rem;
+}
+
+.change_result button {
+  padding: 0.7rem 2.5rem;
+  font-size: 15px;
+  color: #f4f4f4;
+}
